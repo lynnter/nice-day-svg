@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+#Cloud_1 {
+  transform: translate(20px, 10px);
+  animation: cloud 20s linear infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cloud {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-600px);
+  }
+  0% {
+    transform: translate(500px);
+  }
+}
